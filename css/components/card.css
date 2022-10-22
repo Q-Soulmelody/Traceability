@@ -1,0 +1,35 @@
+.cards {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	margin: 10px;/*设置四周margin*/
+	flex-basis: 280px;
+	flex-grow: 1;
+	flex-direction: column;
+}
+
+#e-commerce {
+	flex-direction: row;
+}
+
+#e-commerce p {
+	padding-left: 30px;
+}
+
+.card img {
+	border-radius: 6px;
+}
+
+.card p {
+	font-size: 16px;
+	flex-grow: 1;
+	font-family: 'Roboto', sans-serif;
+}

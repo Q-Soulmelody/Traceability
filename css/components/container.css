@@ -1,0 +1,11 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.container h1 {
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #3D8361;
+	text-decoration-style: double;
+}
